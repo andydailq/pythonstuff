@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f923a1fb-7734-459c-af4a-7bb2d9681d40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khansole_academy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warmup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section/Section2-Soln/Fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section/Section2-Soln/NegativeWordCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section/Section2-Soln/Separate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section/Section2-Starter/.idea/Section2-Starter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1-Soln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1-Soln/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1-Soln/ColumnBuilderKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1-Soln/ColumnBuilderKarel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/ColumnBuilderKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/ColumnBuilderKarel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/simple_python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complement.py" beforeDir="false" afterPath="$PROJECT_DIR$/complement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hailstone.py" beforeDir="false" afterPath="$PROJECT_DIR$/hailstone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liftoff.py" beforeDir="false" afterPath="$PROJECT_DIR$/liftoff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythagorean.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythagorean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/similarity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snek_academy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture4/NinjaKarelStarter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture4/NinjaKarelStarter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture4/worlds/NinjaWorld.kwld" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture4/worlds/NinjaWorld.kwld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WWW/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WWW/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WWW/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WWW/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pycharm_intro/.idea/pycharm_intro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pycharm_intro/.idea/pycharm_intro.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/liftoff.py" />
+        <option value="$PROJECT_DIR$/warmup.txt" />
+        <option value="$PROJECT_DIR$/pythagorean.py" />
+        <option value="$PROJECT_DIR$/hailstone.py" />
+        <option value="$PROJECT_DIR$/snek_academy.py" />
+        <option value="$PROJECT_DIR$/complement.py" />
+        <option value="$PROJECT_DIR$/similarity.py" />
+        <option value="$PROJECT_DIR$/khansole_academy.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1202" />
+    <option name="height" value="746" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.khansole_academy">
+    <configuration name="complement" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/complement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hailstone" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hailstone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="khansole_academy" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/khansole_academy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="liftoff" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liftoff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pythagorean" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythagorean.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="similarity" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/similarity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest build_complement" type="tests" factoryName="Doctests" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/complement.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="build_complement" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest pythag" type="tests" factoryName="Doctests" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythagorean.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="pythag" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in similarity" type="tests" factoryName="Doctests" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/similarity.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.khansole_academy" />
+      <item itemvalue="Python.pythagorean" />
+      <item itemvalue="Python.hailstone" />
+      <item itemvalue="Python.complement" />
+      <item itemvalue="Python.similarity" />
+      <item itemvalue="Python.liftoff" />
+      <item itemvalue="Python tests.Doctests in similarity" />
+      <item itemvalue="Python tests.Doctest build_complement" />
+      <item itemvalue="Python tests.Doctest pythag" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f923a1fb-7734-459c-af4a-7bb2d9681d40" name="Default Changelist" comment="" />
+      <created>1562062188486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562062188486</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 03h 52m 13s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 03h 53m 49s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 04h 09m 14s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 04h 13m 25s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 04h 13m 40s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 04h 14m 16s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_build_complement - 2019.07.02 at 04h 14m 42s.xml">
+      <configuration name="Doctest build_complement" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 04h 15m 37s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 04h 16m 13s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_similarity - 2019.07.02 at 04h 16m 32s.xml">
+      <configuration name="Doctests in similarity" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1202" height="746" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29974598" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32892805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/warmup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hailstone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythagorean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/khansole_academy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1075">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liftoff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
