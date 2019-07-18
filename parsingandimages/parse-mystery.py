@@ -142,7 +142,8 @@ def parse_line(line):
         blue = decorrupt_blue(splitted_str[count_list[2]])
         list.append(blue)
 
-    """ why doesnt this work?
+    """ why doesnt this work? Because the index() method
+    returns the first time that element appears in the list.
     for i in range(len(splitted_str) // 3):
         if splitted_str.index(splitted_str[i * 3]) == 3 * i:
             red = decorrupt_red(splitted_str[i * 3])
