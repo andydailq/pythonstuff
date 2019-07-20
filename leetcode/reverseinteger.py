@@ -1,4 +1,5 @@
 class Solution:
+	# fast but algorithm not efficient, using 14.1 MB of memory
     def reverse(self, x):
         string = str(x)
         if x > 0:
