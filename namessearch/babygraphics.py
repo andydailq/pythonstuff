@@ -11,8 +11,7 @@ import tkinter
 import babynames
 import babygraphicsgui as gui
 
-# Provided constants to load and draw the baby data
-# The first three constants are not directly used by code you write
+
 FILENAMES = [
     'data/full/baby-1900.txt', 'data/full/baby-1910.txt',
     'data/full/baby-1920.txt', 'data/full/baby-1930.txt',
@@ -24,7 +23,7 @@ FILENAMES = [
 CANVAS_WIDTH = 1000
 CANVAS_HEIGHT = 550
 
-# The following constants will be utilized by code you write
+
 YEARS = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010]
 GRAPH_MARGIN_SIZE = 20
 COLORS = ['red', 'purple', 'green', 'blue']
@@ -122,6 +121,7 @@ def draw_names(canvas, name_data, lookup_names):
     width = canvas.winfo_width()    # get the width of the canvas
     height = canvas.winfo_height() - 4 # get the height of the canvas
 
+    
 count = 0
     for name in lookup_names:
         color = ''
@@ -136,76 +136,65 @@ count = 0
         count += 1
         for match_name in name_data:
             if name == match_name:
-                compare_lst = []
-                year_rank = sorted(name_data[name].items()) # list of year and rank of a name, sorted by year
-                for i in range(len(year_rank) - 1):
-                    for j in range(len(YEARS) - 1):
-
-                        compared_year_begin = YEARS[j]
-                        compared_year_end = YEARS[j + 1]
-
-                        begin_year = year_rank[i][0]
-                        begin_rank = year_rank[i][1]
-                        end_year = year_rank[i + 1][0]
-                        end_rank = year_rank[i + 1][1]
-
-                        begin_index = j
-                        end_index = j + 1
-
-                        if compared_year_begin != begin_year:
-                            if compared_year_end != end_year:
-                                if compared_year_end != begin_year:
-                                    if compared_year_begin not in compare_lst:
-                                        canvas.create_line(get_x_coordinate(width, begin_index), scale_factor(MAX_RANK) - 1,
-                                                           get_x_coordinate(width, end_index),
-                                                           scale_factor(MAX_RANK) - 1, width=LINE_WIDTH, fill=color)
-                                        canvas.create_text(get_x_coordinate(width, begin_index) + TEXT_DX,
-                                                           scale_factor(MAX_RANK) - 1,
-                                                           text=name + str('*'), anchor=tkinter.SW, fill=color)
-                                        compare_lst.append(compared_year_begin)
-                                    else:
-                                        continue
-                                elif compared_year_end == begin_year:
-                                    canvas.create_line(get_x_coordinate(width, begin_index), scale_factor(MAX_RANK) - 1,
-                                                       get_x_coordinate(width, end_index),
-                                                       scale_factor(end_rank) - 1, width=LINE_WIDTH, fill=color)
-                                    canvas.create_text(get_x_coordinate(width, begin_index) + TEXT_DX,
-                                                       scale_factor(begin_rank) - 1,
-                                                       text=name + ' ' + str(begin_rank), anchor=tkinter.SW, fill=color)
-                                    compare_lst.append(compared_year_begin)
-                                    continue
-                            elif compared_year_end == end_year:
-                                canvas.create_line(get_x_coordinate(width, begin_index), scale_factor(MAX_RANK) - 1,
-                                                   get_x_coordinate(width, end_index),
-                                                   scale_factor(end_rank) - 1, width=LINE_WIDTH, fill=color)
-                                canvas.create_text(get_x_coordinate(width, begin_index) + TEXT_DX,
-                                                   scale_factor(begin_rank) - 1,
-                                                   text=name + ' ' + str(begin_rank), anchor=tkinter.SW, fill=color)
-                                compare_lst.append(compared_year_begin)
-                                break
-                        elif compared_year_begin == begin_year:
-                            if compared_year_end == end_year:
-                                if compared_year_begin not in compare_lst:
-                                    canvas.create_line(get_x_coordinate(width, begin_index),
-                                                       scale_factor(begin_rank) - 1,
-                                                       get_x_coordinate(width, end_index),
-                                                       scale_factor(end_rank) - 1, width=LINE_WIDTH, fill=color)
-                                    canvas.create_text(get_x_coordinate(width, begin_index) + TEXT_DX,
-                                                       scale_factor(begin_rank) - 1,
-                                                       text=name + ' ' + str(begin_rank), anchor=tkinter.SW, fill=color)
-                                    compare_lst.append(compared_year_begin)
-                                    break
-                            elif compared_year_end != end_year:
-                                canvas.create_line(get_x_coordinate(width, begin_index), scale_factor(begin_rank) - 1,
-                                                   get_x_coordinate(width, end_index),
+                year_rank = name_data[name] # list of year and rank of a name, sorted by year
+                for i in range(len(YEARS) - 1):
+                    if YEARS[i] in year_rank:
+                        if YEARS[i + 1] in year_rank:
+                            canvas.create_line(get_x_coordinate(width, i),
+                                               scale_factor(year_rank[YEARS[i]]) - 1,
+                                               get_x_coordinate(width, i + 1),
+                                               scale_factor(year_rank[YEARS[i + 1]]) - 1, width=LINE_WIDTH, fill=color)
+                            canvas.create_text(get_x_coordinate(width, i) + TEXT_DX,
+                                               scale_factor(year_rank[YEARS[i]]) - 1,
+                                               text=name + ' ' + str(year_rank[YEARS[i]]), anchor=tkinter.SW,
+                                               fill=color)
+                            canvas.create_text(get_x_coordinate(width, i + 1) + TEXT_DX,
+                                               scale_factor(year_rank[YEARS[i + 1]]) - 1,
+                                               text=name + ' ' + str(year_rank[YEARS[i + 1]]), anchor=tkinter.SW,
+                                               fill=color)
+                            continue
+                        elif YEARS[i + 1] not in year_rank or year_rank[YEARS[i + 1]] == 1000:
+                            canvas.create_line(get_x_coordinate(width, i), scale_factor(year_rank[YEARS[i]]) - 1,
+                                               get_x_coordinate(width, i + 1),
+                                               scale_factor(MAX_RANK) - 1, width=LINE_WIDTH, fill=color)
+                            canvas.create_text(get_x_coordinate(width, i) + TEXT_DX,
+                                               scale_factor(year_rank[YEARS[i]]) - 1,
+                                               text=name + ' ' + str(year_rank[YEARS[i]]), anchor=tkinter.SW,
+                                               fill=color)
+                            canvas.create_text(get_x_coordinate(width, i + 1) + TEXT_DX,
+                                               scale_factor(MAX_RANK) - 1,
+                                               text=name + ' ' + str('*'), anchor=tkinter.SW, fill=color)
+                            continue
+                    else:
+                        if YEARS[i] not in year_rank or year_rank[YEARS[i]] == 1000:
+                            if YEARS[i + 1] not in year_rank or year_rank[YEARS[i + 1]] == 1000:
+                                canvas.create_line(get_x_coordinate(width, i), scale_factor(MAX_RANK) - 1,
+                                                   get_x_coordinate(width, i + 1),
                                                    scale_factor(MAX_RANK) - 1, width=LINE_WIDTH, fill=color)
-                                canvas.create_text(get_x_coordinate(width, begin_index) + TEXT_DX,
-                                                   scale_factor(begin_rank) - 1,
-                                                   text=name + ' ' + str(begin_rank), anchor=tkinter.SW, fill=color)
-                                compare_lst.append(compared_year_begin)
+                                canvas.create_text(get_x_coordinate(width, i) + TEXT_DX,
+                                                   scale_factor(MAX_RANK) - 1,
+                                                   text=name + str('*'), anchor=tkinter.SW, fill=color)
+                                canvas.create_text(get_x_coordinate(width, i + 1) + TEXT_DX,
+                                                   scale_factor(MAX_RANK) - 1,
+                                                   text=name + ' ' + str('*'), anchor=tkinter.SW,
+                                                   fill=color)
                                 continue
 
-    
+                            elif YEARS[i + 1] in year_rank:
+                                canvas.create_line(get_x_coordinate(width, i), scale_factor(MAX_RANK) - 1,
+                                                   get_x_coordinate(width, i + 1),
+                                                   scale_factor(year_rank[YEARS[i + 1]]) - 1, width=LINE_WIDTH,
+                                                   fill=color)
+                                canvas.create_text(get_x_coordinate(width, i) + TEXT_DX,
+                                                   scale_factor(MAX_RANK) - 1,
+                                                   text=name + ' ' + str('*'), anchor=tkinter.SW, fill=color)
+                                canvas.create_text(get_x_coordinate(width, i + 1) + TEXT_DX,
+                                                   scale_factor(year_rank[YEARS[i + 1]]) - 1,
+                                                   text=name + ' ' + str(year_rank[YEARS[i + 1]]), anchor=tkinter.SW,
+                                                   fill=color)
+                                continue
+
+        
 
         del color
 
@@ -229,4 +218,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
