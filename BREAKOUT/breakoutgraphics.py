@@ -1,9 +1,6 @@
 """
-Stanford CS106AP Breakout Project
-Adapted from Eric Roberts's Breakout by
-Sonja Johnson-Yu, Kylie Jue, and Nick Bowman.
-
-YOUR DESCRIPTION HERE
+Breakout
+run from cmd line or main()
 """
 from campy.graphics.gwindow import GWindow
 from campy.graphics.gobjects import GOval, GRect, GLabel
@@ -168,9 +165,6 @@ class BreakoutGraphics:
         self.vy = 0
 
     def reset_ball(self):
-        """
-        Sets the ball in original starting position with default initial velocity
-        """
         self.remove_ball()
         self.reset_ball_position()
         while self.out_of_zone():
