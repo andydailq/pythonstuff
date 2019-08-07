@@ -1,5 +1,9 @@
 """
-Breakout Class
+Stanford CS106AP Breakout Project
+Adapted from Eric Roberts's Breakout by
+Sonja Johnson-Yu, Kylie Jue, and Nick Bowman.
+
+YOUR DESCRIPTION HERE
 """
 from campy.graphics.gwindow import GWindow
 from campy.graphics.gobjects import GOval, GRect, GLabel
@@ -12,7 +16,7 @@ COLORS = ['RED', 'ORANGE', 'YELLOW', 'GREEN', 'BLUE']
 BRICK_SPACING = 5      # Space between bricks (in pixels). This space is used for horizontal and vertical spacing.
 BRICK_WIDTH = 40       # Height of a brick (in pixels).
 BRICK_HEIGHT = 15      # Height of a brick (in pixels).
-BRICK_ROWS = 2        # Number of rows of bricks.
+BRICK_ROWS = 10        # Number of rows of bricks.
 BRICK_COLS = 10        # Number of columns of bricks.
 BRICK_OFFSET = 50      # Vertical offset of the topmost brick from the window top (in pixels).
 BALL_RADIUS = 10       # Radius of the ball (in pixels).
@@ -164,6 +168,9 @@ class BreakoutGraphics:
         self.vy = 0
 
     def reset_ball(self):
+        """
+        Sets the ball in original starting position with default initial velocity
+        """
         self.remove_ball()
         self.reset_ball_position()
         while self.out_of_zone():
